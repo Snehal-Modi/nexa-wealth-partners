@@ -79,7 +79,7 @@ function RotatingBadge() {
       >
 
         <img
-          src="/logo.jpeg"
+          src="/src/assets/logo.jpeg"
           alt="Nexa"
           className="
             w-full
@@ -230,7 +230,7 @@ function Hero() {
           >
 
             <a
-              href="https://wa.me/918141112423"
+              href="https://wa.me/918141112423?text=Hello Harsh I want more details about your services"
               target="_blank"
               rel="noopener noreferrer"
               className="

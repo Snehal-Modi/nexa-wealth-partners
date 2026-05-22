@@ -82,7 +82,7 @@ function Services() {
               <h3 className="text-gray-900 font-black text-xl mb-3">{s.title}</h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-6">{s.desc}</p>
               <a
-                href="https://wa.me/918140842405?text=Hello Harsh, I want more details about your services"
+                href="https://wa.me/918141112423?text=Hello Harsh, I want more details about your services"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm font-bold text-gray-900 border-b-2 border-yellow-400 pb-0.5 hover:text-yellow-600 transition-colors duration-200"
@@ -106,7 +106,7 @@ function Services() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/918140842405?text=Hello Harsh I want more details about your services"
+              href="https://wa.me/918141112423?text=Hello Harsh I want more details about your services"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105"

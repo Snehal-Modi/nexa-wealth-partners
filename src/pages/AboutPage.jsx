@@ -110,7 +110,7 @@ function AboutPage() {
               {/* BACKGROUND IMAGE */}
 
               <img
-                src="public/h5.jpeg"
+                src="/src/assets/harsh.jpeg"
                 alt="Harsh Vaidya"
                 className="
         absolute
@@ -218,7 +218,7 @@ function AboutPage() {
               Beyond client service, he is a passionate mentor — actively recruiting and training agents and leaders, enabling them to build passive income streams and rewarding careers with full flexibility.
             </p>
             <a
-              href="https://wa.me/918140842405?text=Hello Harsh I want more details about your services"
+              href="https://wa.me/918141112423?text=Hello Harsh I want more details about your services"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-400 text-white font-bold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 shadow-lg"
@@ -368,7 +368,7 @@ function AboutPage() {
           </div>
           <div className="text-center mt-12">
             <a
-              href="https://wa.me/918140842405?text=Hello Harsh I want to join your team"
+              href="https://wa.me/918141112423?text=Hello Harsh I want to join your team"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-400 text-white font-black px-10 py-4 rounded-xl transition-all duration-300 hover:scale-105 text-base shadow-xl"

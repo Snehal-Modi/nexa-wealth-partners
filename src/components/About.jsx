@@ -67,7 +67,7 @@ function About() {
               {/* BACKGROUND IMAGE */}
 
               <img
-                src="public/h5.jpeg"
+                src="/src/assets/harsh.jpeg"
                 alt="Harsh Vaidya"
                 className="
         absolute

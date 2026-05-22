@@ -19,7 +19,7 @@ function Footer() {
             </p>
             <div className="flex gap-3 mt-5">
               <a
-                href="https://wa.me/918140842405?text=Hello Harsh I want more details about your services"
+                href="https://wa.me/918141112423?text=Hello Harsh I want more details about your services"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-green-500 hover:bg-green-400 rounded-full flex items-center justify-center transition-colors"
@@ -75,8 +75,8 @@ function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <FaPhone className="text-yellow-400 mt-0.5 flex-shrink-0" />
-                <a href="tel:+918140842405" className="text-gray-400 hover:text-white text-sm transition-colors">
-                  +91 81408 42405
+                <a href="tel:+918141112423" className="text-gray-400 hover:text-white text-sm transition-colors">
+                  +91 81411 12423
                 </a>
               </li>
               <li className="flex items-start gap-3">
