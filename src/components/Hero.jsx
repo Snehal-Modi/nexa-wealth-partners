@@ -79,7 +79,7 @@ function RotatingBadge() {
       >
 
         <img
-          src="/src/assets/logo.jpeg"
+          src="./src/assets/logo.jpeg"
           alt="Nexa"
           className="
             w-full
