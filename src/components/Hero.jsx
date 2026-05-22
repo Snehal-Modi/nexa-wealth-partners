@@ -1,3 +1,4 @@
+import logo from "../assets/logo.jpeg";
 import {
   FaWhatsapp,
   FaChevronDown,
@@ -79,7 +80,7 @@ function RotatingBadge() {
       >
 
         <img
-          src="./src/assets/logo.jpeg"
+          src={logo}
           alt="Nexa"
           className="
             w-full

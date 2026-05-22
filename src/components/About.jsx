@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import harshImage from "../assets/harsh.jpeg";
 import { FaShieldAlt, FaChartLine, FaHandshake, FaTrophy, FaArrowRight } from "react-icons/fa";
 
 const values = [
@@ -67,7 +68,7 @@ function About() {
               {/* BACKGROUND IMAGE */}
 
               <img
-                src="./src/assets/harsh.jpeg"
+                src={harshImage}
                 alt="Harsh Vaidya"
                 className="
         absolute

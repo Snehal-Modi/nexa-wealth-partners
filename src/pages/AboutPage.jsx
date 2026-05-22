@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import WhatsApp from "../components/WhatsApp";
+import harshImage from "../assets/harsh.jpeg";
 import {
   FaTrophy,
   FaShieldAlt,
@@ -110,7 +111,7 @@ function AboutPage() {
               {/* BACKGROUND IMAGE */}
 
               <img
-                src="./src/assets/harsh.jpeg"
+                src={harshImage}
                 alt="Harsh Vaidya"
                 className="
         absolute
