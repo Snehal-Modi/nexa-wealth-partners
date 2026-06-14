@@ -51,8 +51,8 @@ const contactLinks = [
   {
     icon: <FaLinkedin className="text-2xl" />,
     label: "LinkedIn",
-    value: "linkedin.com/in/harshvaidya",
-    href: "https://www.linkedin.com/in/harshvaidya",   // ← replace with actual LinkedIn URL
+    value: "linkedin.com/in/nexa-wealth-partners",
+    href: "https://www.linkedin.com/in/nexa-wealth-partners-7a038440b/",   // ← replace with actual LinkedIn URL
     color: "bg-blue-700 hover:bg-blue-600",
     external: true,
   },

@@ -27,7 +27,7 @@ function Footer() {
                 <FaWhatsapp />
               </a>
               <a
-                href="https://www.linkedin.com/in/harshvaidya"   // ← replace with actual
+                href="https://www.linkedin.com/in/nexa-wealth-partners-7a038440b/"   // ← replace with actual
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-blue-600 hover:bg-blue-500 rounded-full flex items-center justify-center transition-colors"
