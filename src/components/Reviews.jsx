@@ -1,55 +1,66 @@
 import { FaStar, FaQuoteLeft } from "react-icons/fa";
+import kv from "../assets/reviews/kv.jpeg";
+import kamini from "../assets/reviews/kamini.jpeg";
+import dhruvin from "../assets/reviews/dhruvin.jpeg";
+import bhumit from "../assets/reviews/bhumit.jpeg";
+import deep from "../assets/reviews/deep.jpeg";
 
 const reviews = [
   {
-    name: "Rajesh Mehta",
-    role: "Business Owner, Surat",
-    initials: "RM",
+    name: "Krushnavadan Tandel",
+    role: "P.B.A( leader), Navsari",
+    image: kv,
+    initials: "KT",
     color: "from-blue-600 to-indigo-700",
     stars: 5,
     review:
-      "Working with Harsh has completely transformed my financial planning. I now have the right life insurance coverage through Tata AIA and my family's future is fully secured. His guidance was clear, honest and genuinely helpful.",
+      "I am very pleased to be a part of the Nexa wealth partners family and work with such an amazing leadership team. The guidance, support, and growth opportunities here inspire me to achieve more every day.Looking forward to building a successful journey together.",
   },
   {
-    name: "Priya Sharma",
-    role: "Agent – Joined 2022, Navsari",
-    initials: "PS",
+    name: "Kamini Nayka",
+    role: "N.L.A, Navsari",
+    image: kamini,
+    initials: "KN",
     color: "from-green-600 to-teal-700",
-    stars: 5,
+    stars: 4,
     review:
       "Joining Nexa Wealth Partners as an agent has been the best career decision of my life. I was a housewife with no insurance background, and now I earn ₹50,000/month working part-time. Harsh's training and support system is incredible.",
   },
+  // {
+  //   name: "Dhruvil Bharucha",
+  //   role: "L.P, Navsari",
+  //   image: dhruvil,
+  //   initials: "DB",
+  //   color: "from-purple-600 to-pink-700",
+  //   stars: 4,
+  //   review:
+  //     "The training and support I received from Harsh helped me close my first big insurance deal within just one month of joining. His approach to ethical selling and lead generation is truly practical and effective.",
+  // },
   {
-    name: "Sunil Patel",
-    role: "New Recruit, Valsad",
-    initials: "SP",
-    color: "from-purple-600 to-pink-700",
-    stars: 5,
-    review:
-      "The training and support I received from Harsh helped me close my first big insurance deal within just one month of joining. His approach to ethical selling and lead generation is truly practical and effective.",
-  },
-  {
-    name: "Kavita Desai",
-    role: "Policyholder, Navsari",
-    initials: "KD",
+    name: "Dhruvin Patel",
+    role: "L.P, Bardoli",
+    image: dhruvin,
+    initials: "DP",
     color: "from-orange-600 to-red-700",
     stars: 5,
     review:
       "I was always hesitant about insurance — I thought it was just a waste of money. But after understanding it properly from Harsh Vaidya, I realised how powerful insurance is as a financial tool. Best decision I made for my family.",
   },
   {
-    name: "Amit Shah",
-    role: "Senior Agent, Vapi",
-    initials: "AS",
+    name: "Bhumit Patel",
+    role: "L.P, Bardoli",
+    image: bhumit,
+    initials: "BP",
     color: "from-teal-600 to-cyan-700",
-    stars: 5,
+    stars: 4,
     review:
       "The online marketing strategies I learned from Harsh have literally doubled my insurance sales in 6 months. His digital training for agents is something no other leader provides in this industry.",
   },
   {
-    name: "Neha Joshi",
-    role: "Chartered Accountant, Bharuch",
-    initials: "NJ",
+    name: "Deep Tandel",
+    role: "S.L.P, Nasvari",
+    image: deep,
+    initials: "DT",
     color: "from-yellow-600 to-amber-700",
     stars: 5,
     review:
@@ -88,17 +99,18 @@ function ReviewCard({ review, imageRight, index }) {
   );
 
   const avatar = (
-    <div className="flex-shrink-0 flex items-center justify-center">
-      <div
-        className={`w-32 h-32 sm:w-40 sm:h-40 rounded-full bg-gradient-to-br ${review.color} flex flex-col items-center justify-center shadow-xl border-4 border-white`}
-      >
-        <span className="text-4xl sm:text-5xl font-black text-white leading-none">
-          {review.initials}
-        </span>
-        <span className="text-white/60 text-xs mt-1 tracking-widest font-semibold">CLIENT</span>
-      </div>
+  <div className="flex-shrink-0 flex items-center justify-center">
+    <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full shadow-xl border-4 border-white overflow-hidden">
+
+      <img
+        src={review.image}
+        alt={review.name}
+        className="w-full h-full object-cover hover:scale-110 transition duration-500"
+      />
+
     </div>
-  );
+  </div>
+);
 
   return (
     <div
